@@ -42,7 +42,7 @@ section{
     border: 1px solid black;
     border-radius: 10px;
 }
-.navigation1{
+.navigation{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -52,43 +52,14 @@ section{
     list-style: none;
     background-color: deepskyblue;
 }
-.navigation1 a{
+.navigation a{
     display: block;
     padding: 15px;
     color: white;
     text-decoration: none;   
 }
-.navigation1 a:hover{
+.navigation a:hover{
     background-color: #1565C0;
-}
-.parent_container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: papayawhip;    
-}
-.child_container{
-    padding: 10px;
-}
-.red {
-    background-color: red;
-    flex-grow: 1;
-}
-.blue {
-    background-color: blue;
-    flex-grow: 2;
-}
-.green {
-    background-color: green;
-    flex-grow: 2;
-}
-.yellow {
-    background-color: yellow;
-    flex-grow: 2;
-}
-.orange {
-    background-color: orange;
-    flex-grow: 5;
 }
 footer{
     padding: 15px;
@@ -97,16 +68,16 @@ footer{
     background-color: rgb(202, 213, 235);
 }
 @media all and (max-width: 800px){
-    .navigation1{
+    .navigation{
         justify-content: space-evenly;
     }
 }
 @media all and (max-width: 340px){
-    .navigation1{
+    .navigation{
         flex-flow: column wrap;
         text-align: center;
     }
-    .navigation1 a { 
+    .navigation a { 
         text-align: center; 
         padding: 10px;
         border-top: 1px solid rgba(255, 255, 255,0.3); 
