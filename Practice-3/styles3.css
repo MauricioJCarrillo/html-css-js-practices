@@ -38,33 +38,40 @@ section{
     width: 90%;
     height: auto;
     padding: 25px;
-    margin: 25px;
+    margin: 25px auto;
     border: 1px solid black;
     border-radius: 10px;
 }
-.parent_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section__form{
+    display: block;
+    width: 100%;
+    max-width: 236px;
+    height: auto;
+    padding: 20px;
 }
-.child_container{
+label{
+    display: block;
+    padding-bottom: 5px;
+    font-size: 1.6rem;
+    text-align: left;
+}
+.form__input{
+    display: block;
+    margin: auto;
     padding: 10px;
-    margin: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #dbdbe2;
+    text-align: left;
 }
-.red {
-    background-color: red;
-}
-.blue {
-    background-color: blue;
-}
-.green {
-    background-color: green;
-}
-.yellow {
-    background-color: yellow;
-}
-.orange {
-    background-color: orange;
+.form__button{
+    display: block;
+    padding: 10px;
+    margin: 15px auto;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
 }
 footer{
     padding: 15px;
