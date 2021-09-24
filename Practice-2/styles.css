@@ -17,7 +17,14 @@ html{
     font-size: 62.5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
 main{
+    display: grid;
+    place-items: center;
     width: 100%;
     height: auto;
     text-align: center;
@@ -38,7 +45,7 @@ section{
     width: 90%;
     height: auto;
     padding: 25px;
-    margin: 25px;
+    margin: 25px auto;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -69,6 +76,6 @@ section{
 footer{
     padding: 15px;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     background-color: rgb(202, 213, 235);
 }
