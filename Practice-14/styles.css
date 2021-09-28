@@ -1,0 +1,98 @@
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Visuales
+5. Miscelaneos / Otros - Media Querys*/
+:root{
+    --deepblue: deepskyblue;
+    /*No colors because all the practice are diferents*/
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    height: 100vh;
+}
+main {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: papayawhip;
+}
+h2 {
+    padding: 20px 0;
+    font-size: 2.6rem;
+    text-align: center;
+    background-color: papayawhip;
+}
+header {
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+    background-color: dodgerblue;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.card { 
+    padding: 10px;
+    height: 210px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.card h3 {
+    margin: 15px 15px 25px 15px;
+}
+.card div {
+    display: grid;
+    place-items: center;
+}
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(106, 106, 126);
+    border-radius: 10px;
+}
+.translate .cuadrado:hover {
+    transform: translateX(50px);
+    /*transition: 5s cubic-bezier(0.075, 0.82, 0.165, 1);*/
+}
+.rotate .cuadrado:hover {
+    transform: rotate(45deg);
+}
+.scale .cuadrado:hover {
+    transform: scale(1.2, 1.2);
+}
+.skew .cuadrado:hover {
+    transform: skew(20deg, 20deg);
+}
+.matrix .cuadrado:hover {
+    /*transform: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY());*/
+    transform: matrix(1, 1, -1, 1, 25, 25);
+}
+footer {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: rgb(202, 213, 235);
+}
