@@ -1,0 +1,102 @@
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Visuales
+5. Miscelaneos / Otros - Media Querys*/
+:root{
+    --deepblue: deepskyblue;
+    /*No colors because all the practice are diferents*/
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    height: 100vh;
+}
+main {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: papayawhip;
+}
+h2 {
+    padding: 20px 0;
+    font-size: 2.6rem;
+    text-align: center;
+    background-color: papayawhip;
+}
+header {
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+    background-color: dodgerblue;
+}
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.main__container:hover .circle {
+    transform: translateX(200px);
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.one {  
+    background-color: blue;
+    transition: transform 1.5s linear;
+    transition-delay: 0.5s;    
+}
+.two {
+    background-color: blueviolet;
+    transition: transform 1s ease;
+    transition-delay: 1s;
+}
+.three {
+    background-color: brown;
+    transition: transform 2s ease-out;
+    transition-delay: 1.5s;
+}
+.four {
+    background-color: burlywood;
+    transition: transform 2s ease-out;
+    transition-delay: 2s;
+}
+.five {
+    background-color: cadetblue;
+    transition: transform 1s ease;
+    transition-delay: 2.5s;
+}
+.six {
+    background-color: chartreuse;
+    transition: transform 1.5s linear;
+    transition-delay: 3s;
+}
+footer {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: rgb(202, 213, 235);
+}

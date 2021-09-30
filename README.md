@@ -20,3 +20,4 @@ This space is for me, to practice and understand the different specific lessons.
 16. Practice-16: How to use transform-style (3D)? 
 17. Practice-17: How to use backface-visibilty (3D)?
 18. Practice-18: How to use transition?
+19. Practice-19:How to use Transition timing function and delay?
