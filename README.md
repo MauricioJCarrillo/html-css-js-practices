@@ -14,10 +14,11 @@ This space is for me, to practice and understand the different specific lessons.
 10. Practice-10: 10 Modern CSS - RAM (Repeat, Auto, Minmax)
 11. Practice-11: 10 Modern CSS - Line Up
 12. Practice-12: 10 Modern CSS - Clamping My Style
-13. Practice-13: 10 Modern CSS - Respect for Aspect 
-14. Practice-14: How to use transform? 
-15. Practice-15: How to use transform-origin? 
-16. Practice-16: How to use transform-style (3D)? 
+13. Practice-13: 10 Modern CSS - Respect for Aspect
+14. Practice-14: How to use transform?
+15. Practice-15: How to use transform-origin?
+16. Practice-16: How to use transform-style (3D)?
 17. Practice-17: How to use backface-visibilty (3D)?
 18. Practice-18: How to use transition?
-19. Practice-19:How to use Transition timing function and delay?
+19. Practice-19: How to use Transition timing function and delay?
+20. Practice-20: How to use a API with Callbacks?

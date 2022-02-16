@@ -1,0 +1,29 @@
+{
+  "name": "1.proyect_demo_prework_platzi",
+  "version": "1.0.0",
+  "description": "Web development practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node Practice-20/index.js",
+    "callback-challenge": "node Practice-20/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioJCarrillo/1.proyect_demo_prework_platzi.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Mauricio J Carrillo <mauricio.jcarrillo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauricioJCarrillo/1.proyect_demo_prework_platzi/issues"
+  },
+  "homepage": "https://github.com/MauricioJCarrillo/1.proyect_demo_prework_platzi#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
