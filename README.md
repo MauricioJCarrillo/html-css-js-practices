@@ -23,3 +23,4 @@ This space is for me, to practice and understand the different specific lessons.
 19. Practice-19: How to use Transition timing function and delay?
 20. Practice-20: How to use a API with Callbacks?
 21. Practice-21: How to use a API with Promises?
+22. Practice-22: How to use a API with async / await?

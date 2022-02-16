@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "callback": "node Practice-20/index.js",
     "callback-challenge": "node Practice-20/challenge.js",
-    "promise": "node Practice-21/index.js"
+    "promise": "node Practice-21/index.js",
+    "promise-challenge": "node Practice-21/challenge.js",
+    "async/await": "node Practice-22/index.js",
+    "async/await-challenge": "node Practice-22/challenge.js"
   },
   "repository": {
     "type": "git",
