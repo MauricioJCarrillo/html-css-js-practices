@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "callback": "node Practice-20/index.js",
-    "callback-challenge": "node Practice-20/challenge.js"
+    "callback-challenge": "node Practice-20/challenge.js",
+    "promise": "node Practice-21/index.js"
   },
   "repository": {
     "type": "git",

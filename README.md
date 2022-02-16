@@ -1,4 +1,4 @@
-# ProyectoDemoPrework
+# HTML, CSS AND JAVASCRIPT PRACTICES
 
 This space is for me, to practice and understand the different specific lessons. On my growth path, this allows me to improve to become a Full Stack Engineer.
 
@@ -22,3 +22,4 @@ This space is for me, to practice and understand the different specific lessons.
 18. Practice-18: How to use transition?
 19. Practice-19: How to use Transition timing function and delay?
 20. Practice-20: How to use a API with Callbacks?
+21. Practice-21: How to use a API with Promises?

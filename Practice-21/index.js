@@ -1,38 +1,39 @@
-//Ejercicio con la operación Suma
-
-//Esta es la función callback
-function sum(num1, num2) {
-    return num1 + num2;
+//Ejercicio 1:
+//Estructura de una promesa
+const somethingWillHappen = () => {
+    return new Promise((resolve, reject) => {
+        if(true){
+            resolve('Hey!')
+        } else {
+            reject('Ups!');
+        }
+    });
 }
 
-//Esta es la función principal (Función de orden superior) que tiene como parámetro un callback
-function calc(num1, num2, callback) {
-    return callback(num1, num2);
+//Metodos que son llamados dependiendo del resultado de la promesa
+somethingWillHappen()
+    .then(response => console.log(response))
+	.catch(err => console.error(err));
+
+//--------------------------------------------------------------
+//Ejercicio 2:
+//Estructura de una promesa
+const somethingWillHappen2 = () => {
+	return new Promise((resolve, reject) => {
+		if(true) {
+			setTimeout(() => resolve('Hey!'), 2000);
+		} else {
+			const error = new Error('Ups! Hubo algun error');
+			reject(error);
+		}
+	});
 }
 
-//Llamado de la función principal (Función de orden superior) con callback como argumento
-console.log(calc(6, 2, sum));
+somethingWillHappen2()
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
 
-//-----------------------------------------------------------
-//Ejercicio con fechas
-
-//Esta es la función callback
-function printDate(dateNow) {
-    console.log(dateNow);
-}
-
-//Esta es la función principal (Función de orden superior) que tiene como parámetro un callback
-function date(callback) {
-    console.log(new Date);
-    setTimeout(function () {
-        let date = new Date;
-        callback(date);
-    }, 3000);
-}
-
-//Llamado de la función principal (Función de orden superior) con callback como argumento
-date(printDate);
-
-
-
-
+//Promesas encadanedas
+Promise.all([somethingWillHappen(), somethingWillHappen2()])
+	.then(response => console.log('Array of results', response))
+	.catch(err => console.error(err));
