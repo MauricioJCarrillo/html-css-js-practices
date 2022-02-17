@@ -24,3 +24,4 @@ This space is for me, to practice and understand the different specific lessons.
 20. Practice-20: How to use a API with Callbacks?
 21. Practice-21: How to use a API with Promises?
 22. Practice-22: How to use a API with async / await?
+22. Practice-23: How to use ForEach in Arrays?

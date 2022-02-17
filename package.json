@@ -10,7 +10,8 @@
     "promise": "node Practice-21/index.js",
     "promise-challenge": "node Practice-21/challenge.js",
     "async/await": "node Practice-22/index.js",
-    "async/await-challenge": "node Practice-22/challenge.js"
+    "async/await-challenge": "node Practice-22/challenge.js",
+    "forEach": "node Practice-23/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/MauricioJCarrillo/1.proyect_demo_prework_platzi#readme",
   "dependencies": {
+    "http-server": "^14.1.0",
     "xmlhttprequest": "^1.8.0"
   }
 }
