@@ -11,6 +11,7 @@ let status_id = document.getElementById("status_id");
 let species_id = document.getElementById("species_id");
 let gender_id = document.getElementById("gender_id");
 let dimension_id = document.getElementById("dimension_id");
+let imagen_id = document.getElementById("imagen_id");
 
 const apiRequest = async (url_api, id) => {
     try {
@@ -27,13 +28,15 @@ const apiRequest = async (url_api, id) => {
         console.log(data2.status);
         console.log(data2.species);
         console.log(data2.gender);
+        console.log(data2.image);
         num_id.innerText = data2.id;
         name_id.innerText = data2.name;
         status_id.innerText = data2.status;
         species_id.innerText = data2.species;
         gender_id.innerText = data2.gender;
+        imagen_id.innerHTML = `<img id="imagen_id" src="${data2.image}" />`;
 
-        const data3 = await fetch(data2.origin.url).then(res => res.json());;
+        const data3 = await fetch(data2.origin.url).then(res => res.json());
         console.log(data3.dimension);
         dimension_id.innerText = data3.dimension;
     }

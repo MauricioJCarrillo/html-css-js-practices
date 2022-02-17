@@ -115,6 +115,10 @@ header {
     padding: 5px;
     text-align: left;
 }
+.right img {
+    width: 100px;
+    height: 100px;
+}
 footer {
     padding: 15px;
     text-align: center;
