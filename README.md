@@ -28,3 +28,4 @@ This space is for me, to practice and understand the different specific lessons.
 24. Practice-24: How to use Map in Arrays?
 25. Practice-25: How to use Reload Map in Arrays?
 26. Practice-26: How to use Filter in Arrays?
+27. Practice-27: How to use Reduce in Arrays?
