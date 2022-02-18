@@ -27,3 +27,4 @@ This space is for me, to practice and understand the different specific lessons.
 23. Practice-23: How to use ForEach in Arrays?
 24. Practice-24: How to use Map in Arrays?
 25. Practice-25: How to use Reload Map in Arrays?
+26. Practice-26: How to use Filter in Arrays?
