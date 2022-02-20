@@ -32,3 +32,4 @@ This space is for me, to practice and understand the different specific lessons.
 28. Practice-28: How to use Reduce "Reloaded" in Arrays?
 29. Practice-29: How to use Some in Arrays?
 30. Practice-30: How to use Every in Arrays?
+31. Practice-31: How to use Find in Arrays?
