@@ -64,7 +64,7 @@ header {
 .main__container p {
     margin-bottom: 20px;
 }
-.list_container, .includes_container {
+.list_container , .find_container, .findIndex_container {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid black;
