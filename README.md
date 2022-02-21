@@ -34,3 +34,4 @@ This space is for me, to practice and understand the different specific lessons.
 30. Practice-30: How to use Every in Arrays?
 31. Practice-31: How to use Find and FindIndex in Arrays?
 32. Practice-32: How to use Includes in Arrays?
+33. Practice-33: How to use Join and Split in Arrays?
