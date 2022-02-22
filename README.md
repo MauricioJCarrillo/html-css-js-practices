@@ -1,4 +1,4 @@
-# HTML, CSS AND JAVASCRIPT PRACTICES
+# HTML, CSS and JavaScript Practices
 
 This space is for me, to practice and understand the different specific lessons. On my growth path, this allows me to improve to become a Full Stack Engineer.
 
@@ -36,4 +36,5 @@ This space is for me, to practice and understand the different specific lessons.
 32. Practice-32: How to use Includes in Arrays?
 33. Practice-33: How to use Join and Split in Arrays?
 34. Practice-34: How to use Concat in Arrays?
-35. Practice-35: How to use Flatmap in Arrays?
+35. Practice-35: How to use Flat and Flatmap in Arrays?
+36. Practice-36: How to use mutable functions in Arrays?
