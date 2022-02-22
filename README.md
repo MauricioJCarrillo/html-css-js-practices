@@ -36,3 +36,4 @@ This space is for me, to practice and understand the different specific lessons.
 32. Practice-32: How to use Includes in Arrays?
 33. Practice-33: How to use Join and Split in Arrays?
 34. Practice-34: How to use Concat in Arrays?
+35. Practice-35: How to use Flatmap in Arrays?
