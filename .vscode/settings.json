@@ -1,0 +1,14 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.enable": true,
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 2,
+    "editor.formatOnPaste": false,
+    "prettier.bracketSameLine": true,
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+
+}
