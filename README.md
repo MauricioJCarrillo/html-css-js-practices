@@ -39,3 +39,4 @@ This space is for me, to practice and understand the different specific lessons.
 35. Practice-35: How to use Flat and Flatmap in Arrays?
 36. Practice-36: How to use mutable functions in Arrays?
 37. Practice-37: How to use Sort in Arrays?
+38. Practice-38: How promises Works?
