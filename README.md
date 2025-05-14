@@ -30,22 +30,22 @@ This space is for me, to practice and understand the different specific lessons.
 
 | JavaScript practice | Descripción                              |
 | ------------------- | ---------------------------------------- |
-| Practice-20         | How to use a API with Callbacks?         |
-| Practice-21         | How to use a API with Promises?          |
-| Practice-22         | How to use a API with async / await?     |
-| Practice-23         | How to use ForEach in Arrays?            |
-| Practice-24         | How to use Map in Arrays?                |
-| Practice-25         | How to use Map "Reloaded" in Arrays?     |
-| Practice-26         | How to use Filter in Arrays?             |
-| Practice-27         | How to use Reduce in Arrays?             |
-| Practice-28         | How to use Reduce "Reloaded" in Arrays?  |
-| Practice-29         | How to use Some in Arrays?               |
-| Practice-30         | How to use Every in Arrays?              |
-| Practice-31         | How to use Find and FindIndex in Arrays? |
-| Practice-32         | How to use Includes in Arrays?           |
-| Practice-33         | How to use Join and Split in Arrays?     |
-| Practice-34         | How to use Concat in Arrays?             |
-| Practice-35         | How to use Flat and Flatmap in Arrays?   |
-| Practice-36         | How to use mutable functions in Arrays?  |
-| Practice-37         | How to use Sort in Arrays?               |
-| Practice-38         | How promises Works?                      |
+| Practice-01         | How to use a API with Callbacks?         |
+| Practice-02         | How to use a API with Promises?          |
+| Practice-03         | How to use a API with async / await?     |
+| Practice-04         | How to use ForEach in Arrays?            |
+| Practice-05         | How to use Map in Arrays?                |
+| Practice-06         | How to use Map "Reloaded" in Arrays?     |
+| Practice-07         | How to use Filter in Arrays?             |
+| Practice-08         | How to use Reduce in Arrays?             |
+| Practice-09         | How to use Reduce "Reloaded" in Arrays?  |
+| Practice-10         | How to use Some in Arrays?               |
+| Practice-11         | How to use Every in Arrays?              |
+| Practice-12         | How to use Find and FindIndex in Arrays? |
+| Practice-13         | How to use Includes in Arrays?           |
+| Practice-14         | How to use Join and Split in Arrays?     |
+| Practice-15         | How to use Concat in Arrays?             |
+| Practice-16         | How to use Flat and Flatmap in Arrays?   |
+| Practice-17         | How to use mutable functions in Arrays?  |
+| Practice-18         | How to use Sort in Arrays?               |
+| Practice-19         | How promises Works?                      |
