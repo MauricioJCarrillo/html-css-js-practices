@@ -6,11 +6,11 @@ let rta = false;
 
 //Iterando el array con ciclo for
 for (let index = 0; index < pets.length; index++) {
-	const element = pets[index];
-	if(element === 'dog') {
-		rta = true;
-		break;
-	}
+  const element = pets[index];
+  if (element === 'dog') {
+    rta = true;
+    break;
+  }
 }
 
 //Visualización de rta en consola

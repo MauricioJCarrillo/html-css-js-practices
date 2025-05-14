@@ -1,5 +1,5 @@
 //Ejemplo con array: Separar cada elemento por --.
-const elements = ["Fire", "Air", "Water"];
+const elements = ['Fire', 'Air', 'Water'];
 
 //Inicializando el valor rta
 let rta = '';
@@ -7,10 +7,10 @@ let separador = '--';
 
 //Iterando el array con ciclo for
 for (let index = 0; index < elements.length; index++) {
-	const element = elements[index];
-	if(index === elements.length - 1) {
-		rta = rta + element;
-	} else rta = rta + element + separador;
+  const element = elements[index];
+  if (index === elements.length - 1) {
+    rta = rta + element;
+  } else rta = rta + element + separador;
 }
 
 //Visualización de rta en consola

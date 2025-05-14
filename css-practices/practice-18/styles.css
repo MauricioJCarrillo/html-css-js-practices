@@ -4,89 +4,89 @@
 3. Tipografia
 4. Visuales
 5. Miscelaneos / Otros - Media Querys*/
-:root{
-    --deepblue: deepskyblue;
-    /*No colors because all the practice are diferents*/
+:root {
+  --deepblue: deepskyblue;
+  /*No colors because all the practice are diferents*/
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 62.5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
-    display: grid;
-    grid-template-rows: auto auto 1fr auto;
-    height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
 }
 main {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    height: auto;
-    padding-bottom: 20px;
-    text-align: center;
-    background-color: papayawhip;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: papayawhip;
 }
 h2 {
-    padding: 20px 0;
-    font-size: 2.6rem;
-    text-align: center;
-    background-color: papayawhip;
+  padding: 20px 0;
+  font-size: 2.6rem;
+  text-align: center;
+  background-color: papayawhip;
 }
 header {
-    padding: 15px;
-    text-align: center;
-    font-size: large;
-    background-color: dodgerblue;
+  padding: 15px;
+  text-align: center;
+  font-size: large;
+  background-color: dodgerblue;
 }
 .main__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    gap: 10px;
-    width: 90%;
-    height: auto;
-    padding: 10px;
-    font-size: 1.6rem;
-    border: 1px solid black;
-    border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 .child-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;
-    background-color: rgb(241, 188, 215);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(241, 188, 215);
 }
 .Box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
 }
 .Box1 {
-    background-color: lawngreen;
-    transition: 1s;
+  background-color: lawngreen;
+  transition: 1s;
 }
 .Box2 {
-    background-color:rgb(116, 7, 116) ;
-    transition: 3s;
+  background-color: rgb(116, 7, 116);
+  transition: 3s;
 }
 .Box3 {
-    background-color:orangered ;
-    transition: 5s;
+  background-color: orangered;
+  transition: 5s;
 }
 .child-container:hover .Box {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 footer {
-    padding: 15px;
-    text-align: center;
-    font-size: 1.6rem;
-    background-color: rgb(202, 213, 235);
+  padding: 15px;
+  text-align: center;
+  font-size: 1.6rem;
+  background-color: rgb(202, 213, 235);
 }

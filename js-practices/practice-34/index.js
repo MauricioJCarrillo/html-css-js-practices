@@ -1,14 +1,14 @@
 //Ejemplo con array: Concatenar ambos arrays.
-const elements = [1,1,2,2];
-const othersElements = [3,3,4,4];
+const elements = [1, 1, 2, 2];
+const othersElements = [3, 3, 4, 4];
 
 //Inicializamos Nuevo Array
 const rta1 = [...elements];
 
 //Iterando el array con ciclo for
 for (let index = 0; index < othersElements.length; index++) {
-	const element = othersElements[index];
-	rta1.push(element);
+  const element = othersElements[index];
+  rta1.push(element);
 }
 
 //Visualización de rta1 en consola

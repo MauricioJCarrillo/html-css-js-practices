@@ -4,92 +4,92 @@
 3. Tipografia
 4. Visuales
 5. Miscelaneos / Otros - Media Querys*/
-:root{
-    --deepblue: deepskyblue;
-    /*No colors because all the practice are diferents*/
+:root {
+  --deepblue: deepskyblue;
+  /*No colors because all the practice are diferents*/
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 62.5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body {
-    display: grid;
-    grid-template-rows: auto auto 1fr auto;
-    height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
 }
 main {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    height: auto;
-    padding-bottom: 20px;
-    text-align: center;
-    background-color: papayawhip;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: papayawhip;
 }
 h2 {
-    padding: 20px 0;
-    font-size: 2.6rem;
-    text-align: center;
-    background-color: papayawhip;
+  padding: 20px 0;
+  font-size: 2.6rem;
+  text-align: center;
+  background-color: papayawhip;
 }
 header {
-    padding: 15px;
-    text-align: center;
-    font-size: large;
-    background-color: dodgerblue;
+  padding: 15px;
+  text-align: center;
+  font-size: large;
+  background-color: dodgerblue;
 }
 .parent {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
-    justify-content: center;
-    gap: 10px;
-    width: 90%;
-    height: auto;
-    padding: 10px;
-    font-size: 1.6rem;
-    border: 1px solid black;
-    border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 1px solid black;
+  border-radius: 5px;
 }
-.card { 
-    padding: 10px;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 5px;
+.card {
+  padding: 10px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 .card h3 {
-    margin: 15px 15px 25px 15px;
+  margin: 15px 15px 25px 15px;
 }
 .card div {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 }
 .cuadrado {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border: 5px solid rgb(106, 106, 126);
-    border-radius: 10px;
-    perspective: 200px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 5px solid rgb(106, 106, 126);
+  border-radius: 10px;
+  perspective: 200px;
 }
 .transform-style {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background-color: rgb(106, 106, 126);
-    border: 3px solid rgb(13, 13, 41);
-    border-radius: 10px;
-    opacity: 50%;
-    transform-style: preserve-3d;
-    transform: rotateX(45deg);
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(106, 106, 126);
+  border: 3px solid rgb(13, 13, 41);
+  border-radius: 10px;
+  opacity: 50%;
+  transform-style: preserve-3d;
+  transform: rotateX(45deg);
 }
 footer {
-    padding: 15px;
-    text-align: center;
-    font-size: 1.6rem;
-    background-color: rgb(202, 213, 235);
+  padding: 15px;
+  text-align: center;
+  font-size: 1.6rem;
+  background-color: rgb(202, 213, 235);
 }

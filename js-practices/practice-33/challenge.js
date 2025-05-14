@@ -1,29 +1,29 @@
 //Ejemplo usando arrays de datos
 const orders = [
-	{
-		name: "Nicolas",
-		food: "Pizza",
-	},
-	{
-		name: "Andrea",
-		food: "Hamburguesa",
-	},
-	{
-		name: "Zulema",
-		food: "Pizza",
-	},
-	{
-		name: "Santiago",
-		food: "Pizza",
-	},
-	{
-		name: "Valentina",
-		food: "Hamburguesa",
-	},
-	{
-		name: "Lucia",
-		food: "Pizza",
-	},
+  {
+    name: 'Nicolas',
+    food: 'Pizza',
+  },
+  {
+    name: 'Andrea',
+    food: 'Hamburguesa',
+  },
+  {
+    name: 'Zulema',
+    food: 'Pizza',
+  },
+  {
+    name: 'Santiago',
+    food: 'Pizza',
+  },
+  {
+    name: 'Valentina',
+    food: 'Hamburguesa',
+  },
+  {
+    name: 'Lucia',
+    food: 'Pizza',
+  },
 ];
 
 const list_container = document.getElementById('list_container');
@@ -31,15 +31,15 @@ const join_container = document.getElementById('join_container');
 const split_container = document.getElementById('split_container');
 
 //Ejemplo de transformación de nuevo array agregando strings
-const list = orders.map(element => {
-    return `<li>${element.name} - ${element.food}</li>`;
+const list = orders.map((element) => {
+  return `<li>${element.name} - ${element.food}</li>`;
 });
 
 //Manipulación del DOM: (Modifica el DOM 1 vez)
 list_container.innerHTML = list.join('');
 
 //Iteración del array orders para obtener array de nombres
-const rta1 = orders.map(item => item.name);
+const rta1 = orders.map((item) => item.name);
 
 //Visualización de rta1 en consola
 console.log('Lista de nombres: ', rta1);
@@ -57,7 +57,7 @@ join_container.innerHTML = `<li>${rta2}</li>`;
 //Separar las letras de la palabra Hamburguesa y unirlas con -
 
 //Buscamos la palabra Hamburguesa en el array de 'orders'
-const rta3 = orders.find(item => item.food === 'Hamburguesa');
+const rta3 = orders.find((item) => item.food === 'Hamburguesa');
 
 //Visualización de la respuesta rta3 en consola
 console.log('La encontramos! ', rta3);
