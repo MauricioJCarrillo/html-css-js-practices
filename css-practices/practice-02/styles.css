@@ -96,6 +96,25 @@ section {
   background-color: #e9bb67;
 }
 
+.purple-box {
+  background-color: #d6a5e6;
+}
+
+.pink-box {
+  background-color: #e6a5d6;
+}
+.brown-box {
+  background-color: #e6bda5;
+}
+
+.gray-box {
+  background-color: #a5a5a5;
+}
+
+.white-box {
+  background-color: #ffffff;
+}
+
 footer {
   padding: 20px 5px;
   text-align: center;
