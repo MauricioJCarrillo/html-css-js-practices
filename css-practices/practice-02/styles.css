@@ -3,25 +3,43 @@
 2. Modelo de caja
 3. Tipografia
 4. Visuales
-5. Miscelaneos / Otros - Media Querys*/
+5. Miscelaneos / Otros - Media Querys */
+
 :root {
   --deepblue: deepskyblue;
-  /*No colors because all the practice are diferents*/
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 body {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   height: 100vh;
 }
+
+header {
+  padding: 15px;
+  font-size: large;
+  text-align: center;
+  background-color: #cad5eb;
+}
+
+h2 {
+  padding: 20px 0;
+  font-size: 2.6rem;
+  text-align: center;
+  background-color: papayawhip;
+}
+
 main {
   display: grid;
   place-items: center;
@@ -30,54 +48,57 @@ main {
   text-align: center;
   background-color: papayawhip;
 }
-h2 {
-  padding: 20px 0;
-  font-size: 2.6rem;
-  text-align: center;
-  background-color: papayawhip;
-}
-header {
-  padding: 15px;
-  text-align: center;
-  font-size: large;
-  background-color: dodgerblue;
-}
+
 section {
-  display: inline-block;
   width: 90%;
-  height: auto;
-  padding: 25px;
-  margin: 25px auto;
+  margin: 0 auto;
+  padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
 }
+
 .parent_container {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   align-items: center;
 }
+
 .child_container {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
   margin: 15px;
+  padding: 10px;
+  font-size: 1.6rem;
+  border-radius: 10px;
 }
-.red {
-  background-color: red;
+
+.red-box {
+  background-color: #e6a5a5;
 }
-.blue {
-  background-color: blue;
+
+.blue-box {
+  background-color: #9c9cec;
 }
-.green {
-  background-color: green;
+
+.green-box {
+  background-color: #90e790;
 }
-.yellow {
-  background-color: yellow;
+
+.yellow-box {
+  background-color: #e9e964;
 }
-.orange {
-  background-color: orange;
+
+.orange-box {
+  background-color: #e9bb67;
 }
+
 footer {
-  padding: 15px;
+  padding: 20px 5px;
   text-align: center;
   font-size: 1.6rem;
-  background-color: rgb(202, 213, 235);
+  background-color: #cad5eb;
 }
