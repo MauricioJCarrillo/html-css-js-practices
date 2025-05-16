@@ -3,25 +3,53 @@
 2. Modelo de caja
 3. Tipografia
 4. Visuales
-5. Miscelaneos / Otros - Media Querys*/
+5. Miscelaneos / Otros - Media Querys */
+
 :root {
   --deepblue: deepskyblue;
-  /*No colors because all the practice are diferents*/
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
+
 body {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   height: 100vh;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #cad5eb;
+}
+
+header h1 {
+  font-size: 3.2rem;
+}
+
+header p {
+  width: 300px;
+  font-size: 1.6rem;
+}
+
+h2 {
+  padding: 20px 0;
+  font-size: 2.6rem;
+  text-align: center;
+  background-color: papayawhip;
+}
+
 main {
   display: grid;
   place-items: center;
@@ -30,27 +58,15 @@ main {
   text-align: center;
   background-color: papayawhip;
 }
-h2 {
-  padding: 20px 0;
-  font-size: 2.6rem;
-  text-align: center;
-  background-color: papayawhip;
-}
-header {
-  padding: 15px;
-  text-align: center;
-  font-size: large;
-  background-color: dodgerblue;
-}
+
 section {
-  display: inline-block;
   width: 90%;
-  height: auto;
-  padding: 25px;
-  margin: 25px auto;
+  margin: 0 auto;
+  padding: 20px;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
 }
+
 .navigation {
   display: flex;
   flex-flow: row wrap;
@@ -61,26 +77,31 @@ section {
   list-style: none;
   background-color: deepskyblue;
 }
+
 .navigation a {
   display: block;
   padding: 15px;
   color: white;
   text-decoration: none;
 }
+
 .navigation a:hover {
   background-color: #1565c0;
 }
+
 footer {
-  padding: 15px;
+  padding: 20px 5px;
   text-align: center;
   font-size: 1.6rem;
-  background-color: rgb(202, 213, 235);
+  background-color: #cad5eb;
 }
+
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-evenly;
   }
 }
+
 @media all and (max-width: 340px) {
   .navigation {
     flex-flow: column wrap;
