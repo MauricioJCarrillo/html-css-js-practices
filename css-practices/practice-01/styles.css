@@ -67,6 +67,22 @@ section {
   border-radius: 10px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-color: deepskyblue;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 2rem;
+  color: white;
+}
+
 .navigation {
   display: flex;
   flex-flow: row wrap;
@@ -75,7 +91,6 @@ section {
   font-size: 1.6rem;
   font-weight: bold;
   list-style: none;
-  background-color: deepskyblue;
 }
 
 .navigation a {
@@ -89,6 +104,11 @@ section {
   background-color: #1565c0;
 }
 
+.mobile-menu {
+  display: none;
+  color: white;
+}
+
 footer {
   padding: 20px 5px;
   text-align: center;
@@ -96,17 +116,24 @@ footer {
   background-color: #cad5eb;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
   .navigation {
-    justify-content: space-evenly;
+    display: none;
   }
-}
 
-@media all and (max-width: 340px) {
-  .navigation {
-    flex-flow: column wrap;
+  .mobile-menu {
+    display: block;
+    padding: 10px;
+    background-color: deepskyblue;
     text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
   }
+
+  .mobile-menu:hover {
+    background-color: #1565c0;
+  }
+
   .navigation a {
     text-align: center;
     padding: 10px;
